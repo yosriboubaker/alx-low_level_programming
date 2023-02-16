@@ -1,10 +1,7 @@
 #include <stdio.h>
 /**
- * main - Entry point
- *
- * Description: 'prints a message using puts'
  * 
- * Return: Always 0 (Success)
+ * Description: 'prints a message using puts'
  */
 int main(void)
 {	
