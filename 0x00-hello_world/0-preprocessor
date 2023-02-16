@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc CFILE="file.c" -o c
+CFILE="file.c" | gcc -E $CFILE -o c
