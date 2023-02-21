@@ -4,6 +4,7 @@
 /**
  * print_sign - check description
  *
+ *@n: number to check
  * Description: Check if n is signe or not
  *
  * Return: 1 if positive , 0 if n egale a zero , -1 if n negative
