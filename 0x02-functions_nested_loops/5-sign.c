@@ -8,9 +8,9 @@
  *
  * Return: 1 if positive , 0 if n egale a zero , -1 if n negative
  */
+
 int print_sign(int n)
 {
-	int n;
 
 	if (n > 0)
 	{
