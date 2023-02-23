@@ -12,7 +12,6 @@
 
 int _isupper(int c)
 {
-	int c;
 
 	if (isupper(c))
 	{
@@ -22,4 +21,5 @@ int _isupper(int c)
 	{
 		return (0);
 	}
+	return (0);
 }
