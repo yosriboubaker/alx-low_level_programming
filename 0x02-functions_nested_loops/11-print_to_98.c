@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *print_to_98 : prints n to 98
- *@n: int argument
+ * print_to_98 - print numbers n to 98
+ * @n: int argument
  */
+
 void print_to_98(int n)
 {
 
