@@ -17,11 +17,11 @@ int main(void)
 		{
 			_putcahr("FizzBuzz ");
 		}
-		else if (i % 3 == 0)
+		else if (i % 3 == 0 && i % 5 != 0)
 		{
 			_putchar("Fizz ");
 		}
-		else if (i % 5 == 0)
+		else if (i % 5 == 0 && i % 3 != 0)
 		{
 			_putchar("Buzz ");
 		}
