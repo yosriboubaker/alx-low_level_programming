@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * modif_my_param - set the integer to 402
- * @m: a pointer the integer we want to set to 402
+ * _strlen - returns the length of a string
+ * @s: the string
  *
- * Return: nothing
+ * Return: string length
  */
-int _strlen(char *s) 
-{	
-	return(strlen(s));
+int _strlen(char *s)
+{
+	return (strlen(s));
 }
