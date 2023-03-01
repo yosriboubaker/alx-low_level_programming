@@ -7,7 +7,7 @@
  * @dest: the first char
  * @src: the second char
  *
- * Return: the concat of two strings
+ * Return: the concat of two  strings
  */
 char *_strcat(char *dest, char *src)
 {
