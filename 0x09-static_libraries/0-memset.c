@@ -1,16 +1,23 @@
-#include <stdio.h>
-#include "string.h"
 #include "main.h"
+
 /**
- * *_strcat - concat two strings
+ * _memset - fills memory with a constant byte
+ * @s: location
+ * @b: char to fill with
+ * @n: number of bytes
  *
- * @dest: the first char
- * @src: the second char
- *
- * Return: the concat of two  strings
+ * Return: pointer
  */
-char *_strcat(char *dest, char *src)
+
+char *_memset(char *s, char b, unsigned int n)
 {
-	strcat(dest, src);
-	return (dest);
+	char *c = s;
+
+	while (n--)
+	{
+		*s = b;
+		s++;
+	}
+
+	return (c);
 }
