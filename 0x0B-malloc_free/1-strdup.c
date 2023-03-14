@@ -9,15 +9,15 @@
 
 char *_strdup(char *str)
 {
-	char *cop;
+	char *copy;
 
 	if (str == NULL)
 		return (NULL);
 
-	cop = strdup(str);
+	copy = strdup(str);
 
-	if (cop == NULL)
+	if (copy == NULL)
 		return (NULL);
 
-	return (cop);
+	return (copy);
 }
